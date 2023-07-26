@@ -37,8 +37,7 @@
         </form>
       </main>
       <footer>
-        <p>© 2014 Magnetic Inc. All right reserved.</p>
-        <div class="images"></div>
+        © 2014 Magnetic Inc. All right reserved.
       </footer>
     <?php 
       if(isset($_POST['email'])) {
