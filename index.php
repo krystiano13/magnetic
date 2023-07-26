@@ -32,17 +32,11 @@
       <main>
       <h3>JOIN  OUR  BETA  LIST</h3>
         <form class="d-flex flex-column align-items-center justify-content-between" method="post" action="">
-          <input class="text-center" name="email" type="email" placeholder="YOUR EMAIL ADDRESS" />
-          <button type="submit">SUBMIT</button>
+          <?php require_once('send.php')  ?>   
         </form>
       </main>
       <footer>
         © 2014 Magnetic Inc. All right reserved.
       </footer>
-    <?php 
-      if(isset($_POST['email'])) {
-        echo "email sent";
-      }
-    ?>
   </body>
 </html>
