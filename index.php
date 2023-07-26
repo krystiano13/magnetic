@@ -11,5 +11,9 @@
       rel="stylesheet"
     />
   </head>
-  <body></body>
+  <body>
+    <?php 
+      echo "Test";
+    ?>
+  </body>
 </html>
