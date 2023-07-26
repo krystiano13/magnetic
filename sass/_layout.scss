@@ -20,6 +20,16 @@ header {
       width: 40%;
       margin-left: 30%;
     }
+
+    @media screen and (min-width: 2400px) {
+      font-size: 6rem;
+      margin-top: 9rem;
+    }
+
+    @media screen and (min-width: 3200px) {
+      font-size: 7rem;
+      margin-top: 12rem;
+    }
   }
 
   h2 {
@@ -32,11 +42,32 @@ header {
       margin-bottom: 2rem;
       font-size: 1.8rem;
     }
+
+    @media screen and (min-width: 2400px) {
+      margin-top: 4rem;
+      margin-bottom: 4rem;
+      font-size: 2.1rem;
+    }
+
+    @media screen and (min-width: 3200px) {
+      margin-top: 6rem;
+      margin-bottom: 6rem;
+      font-size: 3rem;
+    }
   }
 }
 
 main {
   padding-bottom: 15rem;
+
+  @media screen and (min-width: 2400px) {
+    padding-bottom: 25rem;
+  }
+
+  @media screen and (min-width: 3200px) {
+    padding-bottom: 35rem;
+  }
+
   form {
     width: 100%;
 
@@ -49,11 +80,27 @@ main {
     button {
       width: 95%;
       padding: 1rem;
+
+      @media screen and (min-width: 2400px) {
+        padding: 2rem;
+      }
+
+      @media screen and (min-width: 3200px) {
+        padding: 3rem;
+      }
     }
 
     input {
       font-size: 1rem;
       font-weight: 400;
+
+      @media screen and (min-width: 2400px) {
+        font-size: 2rem;
+      }
+
+      @media screen and (min-width: 3200px) {
+        font-size: 3rem;
+      }
     }
 
     input::placeholder {
@@ -67,6 +114,15 @@ main {
       color: white;
       font-weight: 700;
       font-size: 1.2rem;
+
+      @media screen and (min-width: 2400px) {
+        font-size: 2.4rem;
+      }
+
+      @media screen and (min-width: 3200px) {
+        margin-top: 2rem;
+        font-size: 3.8rem;
+      }
     }
   }
 
@@ -79,13 +135,25 @@ main {
     letter-spacing: 0.1ch;
     margin-top: 0.75rem;
     margin-bottom: 2rem;
-    width : 70%;
-    margin-left : 15%;
+    width: 70%;
+    margin-left: 15%;
 
     @media screen and (min-width: 992px) {
       font-size: 1.5rem;
-      margin-top : 2rem;
+      margin-top: 2rem;
       margin-bottom: 5rem;
+    }
+
+    @media screen and (min-width: 2400px) {
+      font-size: 3rem;
+      margin-top: 4rem;
+      margin-bottom: 7.5rem;
+    }
+
+    @media screen and (min-width: 3200px) {
+      font-size: 4rem;
+      margin-top: 5rem;
+      margin-bottom: 9rem;
     }
   }
 
@@ -131,5 +199,15 @@ footer {
   align-items: center;
   flex-direction: column;
 
-  padding : 1rem;
+  padding: 1rem;
+
+  @media screen and (min-width: 2400px) {
+    font-size: 2rem;
+    padding: 2rem;
+  }
+
+  @media screen and (min-width: 3200px) {
+    font-size: 2.5rem;
+    padding: 2.5rem;
+  }
 }
