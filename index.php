@@ -24,18 +24,22 @@
     ></script>
     <link rel="stylesheet" href="./css/index.css" />
   </head>
-  <body>
-    <header>
-      <h1>MAGNETIC</h1>
-      <h2>Ads that work</h2>
-    </header>
-    <main>
-      <h3>JOIN OUR BETA LIST</h3>
-      <form method="post" action="">
-        <input name="email" type="email" placeholder="YOUR EMAIL ADDRESS" />
-        <button type="submit">SUBMIT</button>
-      </form>
-    </main>
+  <body class="text-white text-center d-flex flex-column justify-content-between">
+      <header>
+        <h1>MAGNETIC</h1>
+        <h2>Ads that work</h2>
+      </header>
+      <main>
+      <h3>JOIN  OUR  BETA  LIST</h3>
+        <form class="d-flex flex-column align-items-center justify-content-between" method="post" action="">
+          <input class="text-center" name="email" type="email" placeholder="YOUR EMAIL ADDRESS" />
+          <button type="submit">SUBMIT</button>
+        </form>
+      </main>
+      <footer>
+        <p>© 2014 Magnetic Inc. All right reserved.</p>
+        <div class="images"></div>
+      </footer>
     <?php 
       if(isset($_POST['email'])) {
         echo "email sent";
